@@ -1,4 +1,4 @@
-# 윈도우 10에서 가상환경 설치하기 (기본 venv 모델 사용)
+# 가상환경 설치하기 (기본 venv 모델 사용,윈도우 기준)
 
 윈도우 10에서 원하는 폴더에 가상환경을 새로 만들고 사용하는 방법에 대해 설명합니다.
 
@@ -31,7 +31,7 @@ python3 -m venv venv
 ```
 Mac에서는 다음 명령어를 사용합니다:
 ```bash
-source venv/Scripts/Activate
+source venv/bin/activate
 ```
 활성화되면 터미널에 스크립트 위에 괄호가 나타납니다.
 
