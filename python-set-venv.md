@@ -41,35 +41,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 5. 주피터 노트북에 연동
-가상환경에 맞는 파일을 다루기 위해 주피터 노트북을 설정합니다.
-가상환경이 활성화된 상태에서 다음 명령어를 실행합니다:
-```bash
-python -m pip install ipykernel
-ipython kernel install --user --name=프로젝트_폴더_이름
-```
-그 후 비활성화 상태에서 주피터 노트북을 실행합니다:
-```bash
-jupyter-notebook
-```
-
-## 6. 가상환경 비활성화
-가상환경을 비활성화하려면 다음 명령어를 사용합니다:
-```bash
-deactivate
-```
-
-## 7. 주피터 커널 관리
-현재 사용 가능한 주피터 커널을 확인하려면 다음 명령어를 사용합니다:
-```bash
-jupyter-kernelspec list
-```
-특정 커널을 삭제하려면 다음 명령어를 사용합니다:
-```bash
-jupyter-kernelspec uninstall '커널_이름'
-```
-
-## 8. 가상환경의 pip 리스트 추출
+## 5. 가상환경의 pip 리스트 추출
 특정 가상환경 안의 pip 패키지 리스트를 `requirements.txt` 파일로 추출하려면, 가상환경이 활성화된 상태에서 다음 명령어를 실행합니다:
 ```bash
 pip freeze > requirements.txt
