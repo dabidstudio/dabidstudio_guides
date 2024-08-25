@@ -43,6 +43,12 @@ pip install -r requirements.txt
 
 ## 5. 가상환경의 pip 리스트 추출
 특정 가상환경 안의 pip 패키지 리스트를 `requirements.txt` 파일로 추출하려면, 가상환경이 활성화된 상태에서 다음 명령어를 실행합니다:
+
+
+## venv 설정 후 팁
+- venv를 설정한 후 venv를 실행하면 자동으로 venv 폴더가 있는 폴더의 .env 파일을 환경변수로 인식합니다 (python-dotenv 같은 프로그램을 사용하지 않아도 되는 간편함이 있습니다)
+- 그러나 만약 .env 파일에서 변경사항이 있는 경우 터미널을 반드시 종료하고 새롭게 가상환경을 실행해야 해당사항들이 적용되기 때문에 유의가 필요합니다.
+    - 그런 면에서는 load_env()이 더 편할 수 있습니다.
 ```bash
 pip freeze > requirements.txt
 ```
