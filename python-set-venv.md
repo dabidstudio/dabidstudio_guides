@@ -2,7 +2,7 @@
 
 윈도우 10에서 원하는 폴더에 가상환경을 새로 만들고 사용하는 방법에 대해 설명합니다.
 
-[가상환경 구조]
+### <가상환경 구조>
 ![image](https://github.com/user-attachments/assets/a68f40da-40c7-40ef-afda-d68ae3b91fbe)
 
 
