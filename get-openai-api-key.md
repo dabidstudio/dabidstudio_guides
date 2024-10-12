@@ -2,7 +2,7 @@
 
 
 ## 1. [OpenAI 공식 플랫폼 웹사이트](https://platform.openai.com/)로 가서 로그인하기
-- 만약 계정이 있으면 우측상단 Signin 눌러서 로그인
+- 만약 계정이 있으면 우측상단 Login 눌러서 로그인
 - 만약 계정이 없으면 Sign Up 눌러서 회원가입 (구글계정으로 연동해서 바로 회원가입할 수 있음)
 <img width="989" alt="image" src="https://github.com/dabidstudio/chatgpt-guides/assets/152172802/dcc69607-6d6b-4455-829d-9c8ab45f40b3">
 
