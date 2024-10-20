@@ -41,6 +41,9 @@ python3 -m venv venv
 ```bash
 .\venv\Scripts\activate
 ```
+(만약에 윈도우인데 bash 터미널 이용  source venv/Scripts/activate)
+
+
 Mac에서는 다음 명령어를 사용합니다:
 ```bash
 source venv/bin/activate
