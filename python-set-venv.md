@@ -24,6 +24,16 @@
 ```bash
 python -m venv venv
 ```
+
+윈도우에서 주의할 사항은 위 명령어를 command prompt(cmd)로 실행해야 한다는 점입니다.
+powershell로 실행할 경우 권한문제로 생성이 안되는경우가 있습니다.
+- 아래와 같이 터미널이 cmd인 것을 확인한 후 `python -m venv venv` 명령어를 실행합니다 
+![image](https://github.com/user-attachments/assets/491aed35-5b97-4f7e-8c17-588a7551722a)
+
+
+
+
+
 - Mac의 경우 다음과 같이 실행합니다:
 ```bash
 python3 -m venv venv
