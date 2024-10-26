@@ -1,4 +1,4 @@
-# 가상환경 설치하기 
+![image](https://github.com/user-attachments/assets/184d2b06-4872-4158-a7db-8bdf0d47fac1)# 가상환경 설치하기 
 
 컴퓨터에 파이썬을 설치하게 되면 자동으로 파이썬 환경 1개가 만들어집니다.  
 그런데 상황에 따라서 파이썬 환경이 1개가 아니라 여러 개가 필요할 수 있는데,  
@@ -31,6 +31,14 @@ powershell로 실행할 경우 권한문제로 생성이 안되는경우가 있�
 ![image](https://github.com/user-attachments/assets/491aed35-5b97-4f7e-8c17-588a7551722a)
 
 
+<details>
+  <summary>VS Code의 기본 터미널을 cmd로 변경하기</summary>
+  
+가급적이면 아래와 같은 방법으로 VS Code의 기본 터미널을 cmd로 변경하는 것을 권장드립니다.
+![image](https://github.com/user-attachments/assets/4df12f74-5104-4617-bc86-ee8f8afa8b06)
+![image](https://github.com/user-attachments/assets/c542146a-e154-4101-afe4-0c5e0564f29f)
+
+</details>
 
 
 
