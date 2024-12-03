@@ -70,7 +70,17 @@ source venv/bin/activate
 ![image](https://github.com/user-attachments/assets/67195cde-b79e-4dbb-aa5c-5bd6b7cc00f3)
 
 
-## 4. 패키지 설치
+## 4. pip 업그레이드
+파이썬 패키지는 pip이라는 파이썬 자체의 툴을 이용해서 설치합니다.
+처음 가상환경을 설정했을 때 pip이 최신 버전이 아니기 때문에 오류가 나는 경우가 있습니다
+이 경우를 방지하기 위해서 다음과 같이 pip을 최신 버전으로 업그레이드합니다
+```bash
+python -m pip install --upgrade pip
+```
+
+
+
+## 5. 패키지 설치
 활성화 된 상태에서 패키지 설치 명령어를 입력하면 그 가상환경에 패키지가 설치됩니다.
 ```bash
 pip install [패키지이름]
