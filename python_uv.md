@@ -18,16 +18,19 @@
 ## 2. uv 설치법
 
 ### 📦 간단 설치 명령어
+
+#### 1) macOS 및 Linux (wget 이용)
 ```bash
-curl -Ls https://astro.build/install.sh | bash -s -- --uv
+wget -qO- https://astral.sh/uv/install.sh | sh
 ```
 
-설치 후 다음 명령어로 `uv`가 잘 설치되었는지 확인할 수 있습니다:
-```bash
-uv --version
+#### 2) Windows (PowerShell 사용)
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 ---
+
 
 ## 3. uv 주요 명령어 및 활용법
 
