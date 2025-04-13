@@ -1,6 +1,6 @@
 # uv 가이드: 빠르고 편리한 파이썬 환경 관리 도구
 
-<img src="https://github.com/user-attachments/assets/487696ed-5126-47f5-9a18-45852702ae9d" width="300"/>
+<img src="https://github.com/user-attachments/assets/487696ed-5126-47f5-9a18-45852702ae9d" width="600"/>
 
 
 ## 1. uv란?
