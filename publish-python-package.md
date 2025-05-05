@@ -181,17 +181,6 @@ uv publish --token $env:TWINE_PASSWORD
 
 ---
 
-## 8. 설치 및 CLI 실행 확인
 
-```bash
-pip install youtubeinsights-mcp-server-test
-uvx youtubeinsights-mcp-server-test
-```
 
-`uvx`는 패키지를 임시 격리 환경에서 실행하는 CLI 도구입니다.
-정상적으로 CLI가 실행되면 배포가 완료된 것입니다.
-
-```
-
----  
 
