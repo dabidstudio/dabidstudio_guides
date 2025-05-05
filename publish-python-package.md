@@ -204,16 +204,4 @@ uvx youtubeinsights-mcp-server-test
 
 ---
 
-## 📌 요약
 
-| 단계                      | 설명                         |
-| ----------------------- | -------------------------- |
-| `uv init --package`     | 패키지 구조 자동 생성               |
-| `__init__.py`, `main()` | CLI 실행 진입점                 |
-| `pyproject.toml`        | 메타데이터, 의존성, CLI 등록         |
-| `uv build`              | PyPI 업로드용 빌드               |
-| `uv publish`            | 실제 PyPI 업로드                |
-| `uvx`                   | CLI로 MCP 서버 실행 확인          |
-| ⚠️                      | PyPI에 이미 등록된 이름 사용 시 에러 발생 |
-
----
