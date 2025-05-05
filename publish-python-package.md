@@ -1,6 +1,6 @@
 
 # 🧠 YouTube MCP 서버 PyPI 배포 가이드  
-**(with uv + hatchling + PyPI CLI 배포)**
+**(uv 패키지 관리 툴을 이용)**
 
 ---
 
