@@ -1,9 +1,4 @@
-물론입니다! 지금까지 주신 내용을 모두 반영한 **최종 마크다운 가이드**를 아래에 제공합니다.
-이 문서는 Python 패키지 개념부터 시작해서 `uv` 기반 MCP 서버를 PyPI에 CLI 형태로 배포하는 전 과정을 담고 있습니다.
 
----
-
-````markdown
 # 🧠 YouTube MCP 서버 PyPI 배포 가이드  
 **(with uv + hatchling + PyPI CLI 배포)**
 
