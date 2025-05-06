@@ -65,7 +65,6 @@ youtubeinsights-mcp-server-test/
 __version__ = "0.1.2"
 
 from .server import main
-__all__ = ["main"]
 ```
 
 ### 4.2 `src/youtubeinsights_mcp_server_test/server.py`
@@ -86,58 +85,17 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
+* server.py 파일에는 반드시 main() 함수가 선언되어 있어야 함
 ---
 
-## 5. pyproject.toml 설정
 
-```toml
-[project]
-name = "youtubeinsights-mcp-server-test"
-version = "0.1.2"
-description = "A deployable MCP server for YouTube insights"
-readme = "README.md"
-requires-python = ">=3.9"
-dependencies = [
-  "mcp",
-  "httpx",
-  "python-dotenv",
-  "youtube-transcript-api"
-]
-
-[project.scripts]
-youtubeinsights-mcp-server-test = "youtubeinsights_mcp_server_test:main"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-```
-
-### 주의: PyPI 패키지명 중복 오류
-
-`project.name`에 이미 사용된 이름을 입력하면, `uv publish` 시 다음과 같은 에러가 발생합니다.
-
-```
-HTTPError: 400 Bad Request from https://upload.pypi.org/legacy/
-The name 'youtubeinsights-mcp-server' is already taken.
-```
-
-이 경우 `-test`, `-dev`, `-agent` 등으로 이름을 변경해야 합니다.
-
----
 
 ## 6. 로컬 실행 테스트
 
 ```bash
-$env:YOUTUBE_API_KEY="your_api_key"
 uv run youtubeinsights-mcp-server-test
 ```
 
-또는 디렉토리 경로를 명시적으로 지정:
-
-```bash
-uv --directory ./ run youtubeinsights-mcp-server-test
-```
 
 ---
 
@@ -162,9 +120,29 @@ uv build
 API 토큰을 환경 변수에 등록한 후 다음 명령어로 배포합니다.
 
 ```bash
-$env:TWINE_PASSWORD="pypi-AgEIcH..."
-uv publish --token $env:TWINE_PASSWORD
+uv publish --token {발급받은 PyPI 토큰}
 ```
+
+
+### 주의 1 : PyPI 패키지명 중복 오류
+
+`project.name`에 이미 사용된 이름을 입력하면, `uv publish` 시 다음과 같은 에러가 발생합니다.
+
+```
+HTTPError: 400 Bad Request from https://upload.pypi.org/legacy/
+The name 'youtubeinsights-mcp-server' is already taken.
+```
+
+이 경우 `-test`, `-dev`, `-agent` 등으로 이름을 변경해야 함
+ - pyproject.toml에서 파일명 변경 + src/{패키지명} 부분에서도 파일명 변경
+ - dist 폴더 삭제 후 uv build로 다시 빌드한 후 배포 시도
+
+
+## 주의 2 : 코드를 수정했을 때 배포
+- 코드 수정 사항이 있어서 수정한 후 배포를 하고 싶으면 그냥 바로 uv build + uv publish하면 에러가 발생함 (이미 같은 버전으로 PyPI에 배포되어 있기 때문임)
+- pyproject.toml에서 버전을 수정한 후 dist 폴더 삭제, uv build 후 uv publish
+
+---
 
 ---
 
