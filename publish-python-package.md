@@ -87,17 +87,6 @@ if __name__ == "__main__":
     main()
 ```
 
-### 4.3 (선택) `__main__.py`
-
-```python
-from .server import main
-
-if __name__ == "__main__":
-    main()
-```
-
-`python -m youtubeinsights_mcp_server_test` 명령어로 실행하고 싶을 때 사용합니다.
-
 ---
 
 ## 5. pyproject.toml 설정
