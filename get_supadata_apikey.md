@@ -1,24 +1,46 @@
-## supadata 소개
-Web & YouTube to text API for makers
-Turn URLs and YouTube videos into structured data
+# Supadata API 키 얻는 방법
 
-Skip the hassle of video transcription and data scraping. Our APIs help you build better software and AI products faster.
-무료 티어 1달에 100회
+## 📌 Supadata란?
+
+**Supadata**는 웹페이지나 유튜브 링크를 입력하면 해당 콘텐츠를 자동으로 텍스트로 변환해주는 API 서비스입니다.
+직접 크롤링 없이 정리된 데이터를 쉽게 얻을 수 있어, **AI 앱**이나 **자동화 툴**을 만드는 데 매우 유용합니다.
+* 웹사이트/유튜브 → 텍스트 요약
+* 1달에 **100회 무료 호출** 제공
+👉 공식 웹사이트: [https://supadata.ai](https://supadata.ai)
+
+---
+
+## 1. [Supadata 공식 웹사이트](https://supadata.ai/) 접속 및 로그인
+
+* 우측 상단의 **Sign In** 버튼 클릭
+* **구글 계정으로 로그인**
+
+  <img width="600" alt="supadata-login" src="https://github.com/user-attachments/assets/875fc0d4-9f8e-4d5b-9f0a-2f1487caba1c">
+
+---
+
+## 2. 무료 티어 구독하기
+
+* 로그인 후, **Free Tier (무료 티어)** 구독 버튼 클릭
+* 한 달에 최대 **100회** 사용 가능
+
+  <img width="600" alt="supadata-subscribe" src="https://github.com/user-attachments/assets/6bf96e02-1608-4849-b908-3a35ed2ec5e5">
+
+---
+
+## 3. Subscription 탭에서 API Key 확인하기
+
+* 구독 후 자동으로 **Subscription** 탭으로 이동됨
+* `Access key` 항목에서 오른쪽의 **`+` 버튼**을 눌러 **신규 키 생성** 가능
+* 이미 생성된 키가 있다면, 오른쪽의 **눈 아이콘 👁️** 을 클릭하여 키를 확인
+
+  <img width="600" alt="supadata-key" src="https://github.com/user-attachments/assets/b40306c4-f822-43ef-8118-e12086317a0b">
+
+---
+
+## 4. 생성된 API Key 저장하기
+
+* 생성된 키는 복사하여 안전한 곳에 **반드시 저장**
+* 보안상의 이유로 **나중에 다시 확인 불가**하므로 주의
 
 
-
-1. 링크 접속 해서 우측상단 signin 
-2. https://supadata.ai/
-3. ![image](https://github.com/user-attachments/assets/039aa17c-c952-4c2f-819a-55b9e4001c83)
-
-
-구글 계정으로 로그인
-![image](https://github.com/user-attachments/assets/875fc0d4-9f8e-4d5b-9f0a-2f1487caba1c)
-
-
-무료티어 구독버튼 클릭
-![image](https://github.com/user-attachments/assets/6bf96e02-1608-4849-b908-3a35ed2ec5e5)
-
-자동으로 subscription 탭으로 넘어가지는데
-여기서 Access key의 우측 + 버튼을 눌러서 신규 키를 발급받거나, 처음 자동으로 발급이 된 키를 눈모양 클릭해서 확인
-![image](https://github.com/user-attachments/assets/b40306c4-f822-43ef-8118-e12086317a0b)
