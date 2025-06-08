@@ -52,7 +52,7 @@
 <img src="https://github.com/user-attachments/assets/3ae507ef-4f49-4eac-8f7e-133953bcffb5" alt="BotFather 검색" width="600"/>
 
 ### 2. 내 ID 받기
-Id로 표시되어 있는것이 내 텔레그램 Id
+* Id로 표시되어 있는것이 내 텔레그램 Id
 <img src="https://github.com/user-attachments/assets/8d7d6d4e-91b4-4ef3-a06e-e3a5a833320b" alt="BotFather 검색" width="600"/>
 
 
