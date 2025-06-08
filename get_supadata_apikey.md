@@ -38,9 +38,12 @@
 
 ---
 
-## 4. 생성된 API Key 저장하기
 
-* 생성된 키는 복사하여 안전한 곳에 **반드시 저장**
+## (250608) 사이트가 업데이트되어 아래와 같이 간편하게 키 발급 가능
+
+![image](https://github.com/user-attachments/assets/32d458cc-385b-4d19-98e2-ee7d1d73f2c1)
+
+
 
 
 
