@@ -46,15 +46,15 @@
 ## 내 CHAT ID 확인하기
 나에게 메시지를 보내는 챗봇을 만들기 위해서는 내 텔레그램 계정의 CHAT ID를 확인해야 합니다.
 
-### 1. 텔레그램에서 생성한 봇에게 아무 메시지 보내기
+### 1. @userinfobot 검색해서 대화 시작하기
 
-### 2. 아래 주소 접속 (봇 토큰 입력)
+* 상단 검색창에 `@userinfobot` 입력해서 봇 선택하고 대화 시작
+<img src="https://github.com/user-attachments/assets/3ae507ef-4f49-4eac-8f7e-133953bcffb5" alt="BotFather 검색" width="600"/>
 
-   ```
-   https://api.telegram.org/bot<봇_토큰>/getUpdates
-   ```
+### 2. 내 ID 받기
+Id로 표시되어 있는것이 내 텔레그램 Id
+<img src="https://github.com/user-attachments/assets/8d7d6d4e-91b4-4ef3-a06e-e3a5a833320b" alt="BotFather 검색" width="600"/>
 
-   예: `https://api.telegram.org/bot123456789:ABCxyz/getUpdates`
 
-### 3. JSON 응답에서 `"chat": { "id": 숫자 }` 형태를 찾기
-   이 숫자가 **TELEGRAM\_CHAT\_ID**입니다.
+
+
