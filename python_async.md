@@ -22,12 +22,12 @@
 - 여기서 async def로 비동기 함수를 정의하고, 비동기 작업 앞에는 await를 붙임
 - 그리고 asyncio.run()을 이용하면 다음과 같이 async로 정의된 비동기 함수를 실행할 수 있음
 
-```python
-import asyncio
-
-async def say_hello():
-    await asyncio.sleep(1)
-    print("Hello, world!")
-
-asyncio.run(say_hello())  # 비동기 함수 실행
-```
+  ```python
+  import asyncio
+  
+  async def say_hello():
+      await asyncio.sleep(1)
+      print("Hello, world!")
+  
+  asyncio.run(say_hello())  # 비동기 함수 실행
+  ```
